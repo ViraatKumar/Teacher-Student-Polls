@@ -1,0 +1,128 @@
+/* style.css */
+.body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.chat-box {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  max-width: 100%;
+  padding: 20px;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  background-color: #ff0000;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+}
+.chat-box   {
+background-color: antiquewhite;
+}
+.chat-box h1 {
+  margin-top: 0;
+  font-size: 1.5em;
+  text-align: center;
+  color: #333;
+}
+
+.chat-box form {
+  display: flex;
+  margin-top: 20px;
+}
+
+.chat-box input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+}
+
+.chat-box button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.chat-box button:hover {
+  background-color: #0056b3;
+}
+
+.chat-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0;
+  max-height: 200px;
+  overflow-y: auto;
+  border-top: 1px solid #eee;
+}
+
+.chat-box li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.chat-box li:last-child {
+  border-bottom: none;
+}
+
+.chat-box li.self {
+  text-align: left;
+  background-color: #e6f7ff;
+}
+
+.chat-box li.other {
+  text-align: right;
+  background-color: #f9f9f9;
+}
+
+.message-name {
+  font-weight: bold;
+}
+
+.message-content {
+  margin-left: 5px;
+}
+
+.chat-box li:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.chat-box li:nth-child(even) {
+  background-color: #e9e9e9;
+}
+
+.open-chat {
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.open-chat:hover {
+  background-color: #0056b3;
+}
